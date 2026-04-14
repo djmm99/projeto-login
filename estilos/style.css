@@ -47,13 +47,15 @@ section#login {
     height: 500PX;
     border-radius: 20px;
     box-shadow: 0px 0px 10px #00000080 ;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
-section#login div#img-login {
+section#login div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/metal.jpg) no-repeat left bottom;
     background-size: cover;     
-    width: 250px;
     height: 200px;
 
 }
