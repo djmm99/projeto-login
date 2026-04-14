@@ -23,6 +23,15 @@ Cinza escuro: #2d6462
     box-sizing: border-box;
 }
 
+.material-symbols-outlined {
+    color: black;
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 500,
+        'GRAD' 200,
+        'opsz' 24;
+}
+
 html, body {
     background-color: #5f2c82;
     width: 100vw;
@@ -64,3 +73,12 @@ section#login div#formulario {
     display: block;
     padding: 10px;
 }   
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+}
