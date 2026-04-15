@@ -17,13 +17,14 @@ Cinza escuro: #2d6462
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) 
-{
+{ /* CONFIGURAÇÃO PARA TABLET */
     body {
         background-image: linear-gradient(to top, #49a09d , #5f2c82);
     }
 
     section#login {
         width: 80vw;
+        height: 290px;
     }
 
     section#login > div#imagem {
@@ -39,13 +40,14 @@ Cinza escuro: #2d6462
 }
 
 @media screen and (min-width: 993px) 
-{
+{  /* CONFIGURAÇÃO PARA DESKTOP */
     body {
         background-image: linear-gradient(to top, #49a09d , #5f2c82);
     }
 
     section#login {
         width: 990px;
+        height: 400px;
     }
     
     section#login > div#imagem {
@@ -61,9 +63,11 @@ Cinza escuro: #2d6462
     
     div#formulario > p {
         font-size: 1.2em;
+        padding: 10px 0px;
     }
 
     div#formulario > h1 {
+        padding-top: 20px;
         font-size: 2.5em;
     }
 
